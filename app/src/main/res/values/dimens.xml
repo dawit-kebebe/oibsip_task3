@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pad_numeric_button_height">78.0dip</dimen>
+    <dimen name="pad_numeric_equal_height">156.0dip</dimen>
+    <dimen name="pad_numeric_button_width">90.0dip</dimen>
+    <dimen name="pad_numeric_zero_width">180.0dip</dimen>
+</resources>

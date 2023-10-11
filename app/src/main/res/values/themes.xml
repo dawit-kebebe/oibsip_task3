@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Oibsip_task3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="PadButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/pad_button_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/pad_button_background</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">0.0dp</item>
+        <item name="android:minHeight">0.0dp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="PadButtonStyle.Advanced" parent="@style/PadButtonStyle">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/pad_button_text_color</item>
+        <item name="android:background">@drawable/pad_button_bg_ripple_land</item>
+        <item name="android:layout_margin">0.0dip</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="PadButtonStyle.Numeric" parent="@style/PadButtonStyle">
+        <item name="android:textSize">30.0sp</item>
+        <item name="android:textColor">@color/pad_button_text_color</item>
+        <item name="android:background">@drawable/pad_button_bg_ripple_land</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_margin">0.0dip</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="PadButtonStyle.Numeric.Operator" parent="@style/PadButtonStyle.Numeric">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/pad_numeric_button_height</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:paddingTop">26dip</item>
+        <item name="android:paddingBottom">26dip</item>
+    </style>
+
+    <style name="PadButtonStyle.Numeric.Point" parent="@style/PadButtonStyle.Numeric">
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:padding">28dip</item>
+    </style>
+</resources>

@@ -6,6 +6,6 @@ This calculator Evaluates a statement given by the user following a BODMAS (PODM
 > ⚠️ **Warning** : The app is new, therefore there might be issues while doing some operations. If you found any issue please don't hesitate to open an issue on this github repository or contact the author. 
 
 ## Screenshots and Demonstrations
-![Task 3 Demonstration 1](./screenshots/demo1.png)
-![Task 3 Demonstration 2](./screenshots/demo2.png)
-![Task 3 Demonstration 3](./screenshots/demo3.png)
+![Task 3 Demonstration 1](./screenshots/demo1.PNG)
+![Task 3 Demonstration 2](./screenshots/demo2.PNG)
+![Task 3 Demonstration 3](./screenshots/demo3.PNG)

@@ -33,14 +33,6 @@
             android:onClick="onOpClick"
             android:layout_weight="0.25"/>
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/multiplication_btn"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/pad_numeric_button_height"
-            style="@style/PadButtonStyle.Numeric"
-            android:text="@string/op_mul"
-            android:onClick="onOpClick"
-            android:layout_weight="0.25"/>
 
         <androidx.appcompat.widget.AppCompatImageButton
             android:id="@+id/delete_btn"
@@ -49,7 +41,7 @@
             style="@style/PadButtonStyle.Numeric"
             android:src="@drawable/ic_baseline_backspace_24"
             android:onClick="onClearClick"
-            android:layout_weight="0.25"/>
+            android:layout_weight="0.5"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -81,15 +73,14 @@
             android:layout_weight="0.25"
             android:text="@string/digit_9"
             android:onClick="onNumberClick"/>
-
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/addition_btn"
-            style="@style/PadButtonStyle.Numeric"
+            android:id="@+id/multiplication_btn"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/pad_numeric_button_height"
-            android:layout_weight="0.25"
+            style="@style/PadButtonStyle.Numeric"
+            android:text="@string/op_mul"
             android:onClick="onOpClick"
-            android:text="@string/op_add"/>
+            android:layout_weight="0.25"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -157,13 +148,21 @@
             android:onClick="onNumberClick"
             android:layout_weight="0.25"/>
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/sqrt_btn"
+            android:id="@+id/addition_btn"
+            style="@style/PadButtonStyle.Numeric"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/pad_numeric_button_height"
-            style="@style/PadButtonStyle.Numeric"
-            android:text="@string/op_sqrt"
+            android:layout_weight="0.25"
             android:onClick="onOpClick"
-            android:layout_weight="0.25"/>
+            android:text="@string/op_add"/>
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:id="@+id/sqrt_btn"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="@dimen/pad_numeric_button_height"-->
+<!--            style="@style/PadButtonStyle.Numeric"-->
+<!--            android:text="@string/op_sqrt"-->
+<!--            android:onClick="onOpClick"-->
+<!--            android:layout_weight="0.25"/>-->
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -205,6 +204,5 @@
             android:background="@color/color_30"
             android:textColor="@color/color_60"/>
     </TableRow>
-
 
 </TableLayout>

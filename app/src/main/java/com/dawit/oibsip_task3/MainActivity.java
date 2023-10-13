@@ -143,10 +143,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void onLongClearClick(View view){
-
-    }
-
     public void onEqClick(View view){
         Stack<String> buff = (Stack<String>) buffer.clone();
         Eval eval = new Eval();
